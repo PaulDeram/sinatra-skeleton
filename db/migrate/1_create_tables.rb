@@ -13,12 +13,15 @@ class CreateTables < ActiveRecord::Migration
       t.string :location
       t.string :source
       t.string :content
+      t.reference :user
       t.timestamps
     end
 
     create_table :comments do |t|
       t.string :title
       t.string :content
+      t.reference :user
+      t.reference :pin
       t.timestamps
     end
 
