@@ -6,7 +6,7 @@ class AddForeignKeys < ActiveRecord::Migration
 
         change_table :comments do |t|
             t.references :user
-            t.references :pins 
+            t.references :pin
         end  
 
     end
