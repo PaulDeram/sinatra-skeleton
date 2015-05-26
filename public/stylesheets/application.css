@@ -1,0 +1,56 @@
+body {
+  background-image: url("../images/background.jpg");
+  background-size: 100% 200%;
+  padding: 20px;
+  color:white;
+}
+
+section {
+  margin: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  background-color: rgba(90,90,90,0.5);
+  border-radius: 30px;
+  margin-bottom: 20px;
+  box-shadow: 5px 4px 2px rgb(40,40,40);
+  text-align: right;
+  color: rgb(255,255,255)
+  float: left;     
+  display: inline-block; 
+}
+
+section div {
+  float:right;
+}
+
+input[type=radio] {
+    width: 50px;
+    float:left;
+}
+
+input {
+    /* Size and position */
+    width: 100%;
+    padding: 8px 4px 8px 10px;
+    margin-bottom: 15px;
+
+    /* Styles */
+    border: 1px solid #4e3043; /* Fallback */
+    border: 1px solid rgba(78,48,67, 0.8);
+    background: rgba(0,0,0,0.15);
+    border-radius: 2px;
+    box-shadow: 
+        0 1px 0 rgba(255,255,255,0.2), 
+        inset 0 1px 1px rgba(0,0,0,0.1);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+::-webkit-input-placeholder {color:white;}
+:-moz-placeholder {color:white;opacity:  1;}
+::-moz-placeholder {color: white;opacity:  1;}
+:-ms-input-placeholder {color:white;}
+:-o-input-placeholder{color:white;}

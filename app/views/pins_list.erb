@@ -1,0 +1,9 @@
+<h1> Pins!! </h1>
+
+<p>The pins database contains
+<%= @pins.length %> Pins.
+</p>
+
+ <% @pins.each do |pin| %>
+    <div><%=pin.title%></div>
+ <%end%>
