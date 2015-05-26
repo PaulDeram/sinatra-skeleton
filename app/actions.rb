@@ -16,3 +16,7 @@ get '/pins' do
   erb :pins_list
 end
 # 
+
+post '/login' do
+    redirect '/'
+end 
